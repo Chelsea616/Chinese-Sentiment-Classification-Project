@@ -1,16 +1,17 @@
-# 📊 Text Classification Project
+# Text Classification Project
 
 A Chinese sentiment analysis and text classification project built with deep learning models including TextCNN, Transformer, TextRNN, and TextRNN_Attention.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ├── preprocess/
 ├── basic_model/
 ├── model_enhancement/
-└── classify.ipynb
+├── classify.ipynb
+└──Report for AMA 564.pdf
 ```
 
 ---
@@ -19,7 +20,7 @@ A Chinese sentiment analysis and text classification project built with deep lea
 
 This folder contains the preprocessed datasets and the preprocessing script.
 
-> 📥 **Data Source**: The original data (`DMSC.csv`) comes from the [Douban Movie Short Comments dataset on Kaggle](https://www.kaggle.com/datasets/utmhikari/doubanmovieshortcomments). Download and place it in this folder before running preprocessing.
+>  **Data Source**: The original data (`DMSC.csv`) comes from the [Douban Movie Short Comments dataset on Kaggle](https://www.kaggle.com/datasets/utmhikari/doubanmovieshortcomments). Download and place it in this folder before running preprocessing.
 
 | File | Description |
 |------|-------------|
