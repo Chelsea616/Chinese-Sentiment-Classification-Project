@@ -1,10 +1,10 @@
-# Text Classification Project
+# 📊 Text Classification Project
 
 A Chinese sentiment analysis and text classification project built with deep learning models including TextCNN, Transformer, TextRNN, and TextRNN_Attention.
 
 ---
 
-## Project Structure
+## 📁 Project Structure
 
 ```
 ├── preprocess/
@@ -17,11 +17,12 @@ A Chinese sentiment analysis and text classification project built with deep lea
 
 ## 1. `preprocess/`
 
-This folder contains the raw data, preprocessed datasets, and the preprocessing script.
+This folder contains the preprocessed datasets and the preprocessing script.
+
+> 📥 **Data Source**: The original data (`DMSC.csv`) comes from the [Douban Movie Short Comments dataset on Kaggle](https://www.kaggle.com/datasets/utmhikari/doubanmovieshortcomments). Download and place it in this folder before running preprocessing.
 
 | File | Description |
 |------|-------------|
-| `DMSC.csv` | The original source data before preprocessing |
 | `train_pinggu.csv` | Preprocessed training dataset |
 | `test_pinggu.csv` | Preprocessed testing dataset |
 | `preprocessing.py` | Python script for data cleaning, tokenization, stopword removal, and train-test split |
@@ -69,7 +70,7 @@ An interactive notebook for classifying new text using pre-trained models.
 
 ---
 
-## Getting Started
+## 🚀 Getting Started
 
 ### Prerequisites
 
@@ -94,7 +95,7 @@ Open `classify.ipynb`, select a pre-trained model, and input your text to get pr
 
 ---
 
-## Notes
+## 📌 Notes
 
 - All models are designed for **Chinese text classification**.
 - Stopword removal uses `cn_stopwords` during preprocessing.
